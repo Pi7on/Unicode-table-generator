@@ -1,1 +1,1 @@
-![demo](data\demo.png)
+![demo](data/demo.png)
