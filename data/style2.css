@@ -1,0 +1,35 @@
+
+html {
+    display: table;
+    margin: auto;
+}
+body {
+    padding: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: orange; /*To not have transparent background. */
+
+    width: 70px;
+    height: 30px;
+  }
+
+td {
+    text-align: center;
+    width: 70px;
+    height: 30px;
+}
+
